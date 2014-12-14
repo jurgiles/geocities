@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://rails-assets.org'
 
 ruby '2.1.5'
 
@@ -39,3 +40,6 @@ gem 'unicorn', '4.8.3'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Rails Assets - Bower
+gem 'rails-assets-normalize-css', '3.0.2'
