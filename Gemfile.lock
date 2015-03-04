@@ -48,6 +48,8 @@ GEM
     eventmachine (1.0.7)
     execjs (2.2.2)
     ffi (1.9.6)
+    font-awesome-sass (4.3.1)
+      sass (~> 3.2)
     formatador (0.2.5)
     guard (2.12.4)
       formatador (>= 0.2.4)
@@ -206,6 +208,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  font-awesome-sass (= 4.3.1)
   guard-livereload
   haml-rails (= 0.8.2)
   jbuilder (~> 2.0)

@@ -33,7 +33,7 @@ gem 'unicorn', '4.8.3'
 # gem 'capistrano-rails', group: :development
 
 gem 'haml-rails', '0.8.2'
-
+gem 'font-awesome-sass', '4.3.1'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 group :development do
