@@ -45,6 +45,5 @@ end
 
 # Rails Assets
 source 'https://rails-assets.org' do
-  gem 'rails-assets-normalize-css', '3.0.2'
   gem 'rails-assets-bootstrap-sass', '3.3.2'
 end
