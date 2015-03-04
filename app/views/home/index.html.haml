@@ -1,7 +1,33 @@
 .container
-  .middle-content
-    = image_tag('logo.png')
-    %h1
+  .header-content
+    = image_tag('logo.png', class: 'img-responsive')
+    %h2
       Product Engineering Consultant
-    %h3
+    %h4
       Software Engineer grounded in Lean Product Strategy
+    %hr
+    .experience-content
+      %dl.dl-horizontal
+        %dt
+          Droidcon NYC 2014
+        %dd
+          = link_to('Robolectric Groove: TDD on Android', 'https://www.youtube.com/watch?v=sPI4IQNDOOI', target: '_blank')
+        %dt
+          Dev Bootcamp
+        %dd
+          15 Years of Programming
+        %dt
+          Selenium Meetup
+        %dd
+          Android TDD with Robolectric
+        %dt
+          NYC Youth
+        %dd
+          The Lab for Robotics Education
+    %hr
+    .current-read-content
+      %p
+        Current Read
+      %p
+        =link_to('The Death and Life of Great American Cities', 'http://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X', target: '_blank')
+        by Jane Jacobs
