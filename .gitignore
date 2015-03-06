@@ -31,6 +31,8 @@ config/secrets.yml
 *.bowerrc
 bower.json
 
+# dotenv
+.env
 
 # Idea
 *.iml

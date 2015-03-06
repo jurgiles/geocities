@@ -34,6 +34,7 @@ gem 'unicorn', '4.8.3'
 
 gem 'haml-rails', '0.8.2'
 gem 'font-awesome-sass', '4.3.1'
+gem 'pocket-ruby', '0.0.6'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 group :development do
@@ -41,6 +42,7 @@ group :development do
   gem 'rspec-rails'
   gem 'guard-livereload'
   gem 'rack-livereload'
+  gem 'dotenv-rails'
 end
 
 # Rails Assets
