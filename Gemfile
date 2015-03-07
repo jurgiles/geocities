@@ -36,6 +36,9 @@ gem 'haml-rails', '0.8.2'
 gem 'font-awesome-sass', '4.3.1'
 gem 'pocket-ruby', '0.0.6'
 
+gem 'react-rails', github: 'reactjs/react-rails'
+gem 'sprockets-coffee-react'
+
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 group :development do
   gem 'spring'
