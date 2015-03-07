@@ -26,6 +26,6 @@
     if @state.error
       <div> Johny's Pocket feed is being stubborn. </div>
     else if @state.pocket_article
-      React.createElement('a', {href: @state.pocket_article.given_url, target: '_blank'}, @state.pocket_article.given_title)
+      <div><a href={@state.pocket_article.given_url} target='_blank'>{@state.pocket_article.given_title}</a> from Pocket</div>
     else
-      <div> Grabbing latest add to Pocket...</div>
+      <div> Grabbing latest addition to Pocket...</div>
