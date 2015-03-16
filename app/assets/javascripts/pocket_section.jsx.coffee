@@ -26,6 +26,6 @@
     if @state.error
       <div> Johny's Pocket feed is being stubborn. </div>
     else if @state.pocket_article
-      <div><a href={@state.pocket_article.given_url} target='_blank'>{@state.pocket_article.given_title}</a> from Pocket</div>
+      <div><a href={@state.pocket_article.resolved_url} target='_blank'>{@state.pocket_article.resolved_title}</a> from Pocket</div>
     else
-      <div> Grabbing latest addition to Pocket...</div>
+      <div> Grabbing Johny's latest addition to Pocket...</div>
