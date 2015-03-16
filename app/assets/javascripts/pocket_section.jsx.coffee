@@ -8,7 +8,7 @@
 
   fetchPocketArticle: (data) ->
     $.ajax
-      url: 'pocket_content'
+      url: 'pocket_articles'
       dataType: 'json'
       data: data
     .done @fetchPocketArticleDone

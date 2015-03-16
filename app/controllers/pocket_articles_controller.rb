@@ -1,4 +1,4 @@
-class PocketContentsController < ApplicationController
+class PocketArticlesController < ApplicationController
   respond_to :json
 
   def show
