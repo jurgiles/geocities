@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2.5'
+gem 'responders', '~> 2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -33,6 +34,8 @@ gem 'unicorn', '4.8.3'
 gem 'haml-rails', '0.8.2'
 gem 'font-awesome-sass', '4.5.0'
 gem 'pocket-ruby', '0.0.6'
+
+gem 'mongoid', '5.0.0'
 
 gem 'react-rails', github: 'reactjs/react-rails'
 gem 'sprockets-coffee-react'

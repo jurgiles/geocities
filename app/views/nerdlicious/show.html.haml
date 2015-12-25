@@ -7,12 +7,13 @@
       .trivia-question
         %h1
           = icon('quote-left')
-          Which state was the first state to recognize Christmas as a holiday?
+          = @question.question
           = icon('quote-right')
       .trivia-answer-section
         #trivia-answer-text.collapse
           .well
-            %h2 Alabama in 1836
+            %h2
+              =@question.answer
         .trivia-answer-btn
           %a.btn.btn-primary{'role' => 'button', 'data-toggle' => 'collapse', 'aria-expanded' => 'false', 'aria-controls' => 'trivia-answer-text', 'href' => '#trivia-answer-text'}
             See answer
