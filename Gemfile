@@ -31,7 +31,7 @@ gem 'unicorn', '4.8.3'
 # gem 'capistrano-rails', group: :development
 
 gem 'haml-rails', '0.8.2'
-gem 'font-awesome-sass', '4.3.1'
+gem 'font-awesome-sass', '4.5.0'
 gem 'pocket-ruby', '0.0.6'
 
 gem 'react-rails', github: 'reactjs/react-rails'
