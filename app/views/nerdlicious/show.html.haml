@@ -7,10 +7,15 @@
       Nerdlicious
     #trivia
       .trivia-question
-        %h1
-          = icon('quote-left')
-          = @question.question
-          = icon('quote-right')
+        .left-quote
+          %h1
+            = icon('quote-left')
+        .right-quote
+          %h1
+            = icon('quote-right')
+        .question-text
+          %h1
+            = @question.question
       .trivia-answer-section
         #trivia-answer-text.collapse
           .well
