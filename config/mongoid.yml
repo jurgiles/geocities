@@ -1,7 +1,9 @@
 development:
   clients:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] %>
+      database: local-nerdlicious
+      hosts:
+        - localhost:27017
 production:
   clients:
     default:
