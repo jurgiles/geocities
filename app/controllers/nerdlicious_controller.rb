@@ -2,6 +2,10 @@ class NerdliciousController < ApplicationController
   respond_to :html
 
   def show
-    @question = Question.where(index: 1).first()
+    @question = Question.where(index: Time.now.day).first()
+
+    unless @question
+      @question = Question.new(index: -1, question: 'Whoops, questions went dark', answer: 'Missing In Action')
+    end
   end
 end
