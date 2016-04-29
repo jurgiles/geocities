@@ -40,6 +40,8 @@ gem 'mongoid', '5.0.0'
 gem 'react-rails', github: 'reactjs/react-rails'
 gem 'sprockets-coffee-react'
 
+gem 'phaser-rails', '2.4.7'
+
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 group :development do
   gem 'spring'
