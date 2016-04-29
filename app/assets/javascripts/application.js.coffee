@@ -16,4 +16,5 @@
 #= require bootstrap-sass
 #= require react
 #= require react_ujs
+#= require phaser
 #= require_tree .
