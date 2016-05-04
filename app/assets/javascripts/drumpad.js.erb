@@ -3,8 +3,8 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, '', {
 });
 
 function preload() {
-    game.load.spritesheet('drumpad_spritesheet', "<%= asset_path('assets/drumpad/drumpad_spritesheet.png') %>", 251, 181);
-    game.load.audio('snare', "<%= asset_path('assets/drumpad/snare.ogg') %>");
+    game.load.spritesheet('drumpad_spritesheet', "<%= asset_path('drumpad/drumpad_spritesheet.png') %>", 251, 181);
+    game.load.audio('snare', "<%= asset_path('drumpad/snare.ogg') %>");
 }
 
 function create() {
