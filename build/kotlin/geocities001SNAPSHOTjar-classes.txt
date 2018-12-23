@@ -1,1 +1,0 @@
-/Users/jurgiles/Development/geocities/v2/build/classes/kotlin/main/es/jurgil/geocities/GeocitiesApplication.class:/Users/jurgiles/Development/geocities/v2/build/classes/kotlin/main/es/jurgil/geocities/GeocitiesApplicationKt.class
