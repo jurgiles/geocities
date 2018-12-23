@@ -1,1 +1,1 @@
-web: cd ./v1 && bundle exec unicorn -p $PORT -c ./config/unicorn.rb
+web: java -jar build/libs/geocities-0.0.1-SNAPSHOT.jar
